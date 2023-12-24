@@ -16,10 +16,10 @@ void bubbleSort(double arr[], int size) {
 int main(){
     setlocale(LC_ALL,"rus");
     int size;
-    cout << "Размер массива: ";
+    cout << "Размер массива:";
     cin >> size;
     if (size <= 0 || size > 10000) {
-        cout << "Рзмер массива должен быть положительным и меньше 1000" <<endl;
+        cout << "Размер массива должен быть положительным и не больше 1000" <<endl;
         return 0;
     };
     double arr[size];
