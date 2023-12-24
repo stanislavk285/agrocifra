@@ -18,7 +18,7 @@ int main(){
     int size;
     cout << "Размер массива:";
     cin >> size;
-    if (size <= 0 || size > 10000) {
+    if (size <= 0 || size > 1000) {
         cout << "Размер массива должен быть положительным и не больше 1000" <<endl;
         return 0;
     };
